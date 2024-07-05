@@ -26,8 +26,7 @@ This project aims to ensure the reliability and correctness of our application's
    ```bash
    npx jest
 
-4. ## Project Structure
-
+## Project Structure
 qa-api-testing/
 ├── .github/workflows
 ├── test.yml
