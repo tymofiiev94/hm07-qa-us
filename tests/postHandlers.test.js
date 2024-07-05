@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 const config = require('../config');
 
 const requestBody = {
@@ -10,7 +9,7 @@ const requestBody = {
 	  ]
 };
 
-// Test 1
+
 test('201 Status Code Should be reveived', async () => {
 	let actualStatusCode;
     try {
@@ -28,8 +27,8 @@ test('201 Status Code Should be reveived', async () => {
 	expect(actualStatusCode).toBe(201);
 });
 
-// Test 2
-test('Response body should contain the expected data', async () => {
+
+test('Response body contain `Order and Go` data as expected', async () => {
 	let actualResponseBody;
     try {
 		const response = await fetch(`${config.API_URL}/api/v1/orders`, {
