@@ -27,18 +27,19 @@ This project aims to ensure the reliability and correctness of our application's
    npx jest
 
 4. **Project Structure**
-   qa-api-testing/
-               ├── .github/workflows
-                   ├── test.yml
-               ├── tests/                  # Directory containing test cases
-                   ├── deleteHandlers.test.js
-                   ├── getHandlers.test.js
-                   ├── postHandlers.test.js
-                   ├── putHandlers.test.js
-               │
-               ├── eslintcr.js
-               ├── .gitignore              # Git ignore file
-               ├── README.md               # Project documentation
-               ├── config.js
-               ├── package-lock.json
-               └── package.json            # Project metadata and dependencies
+qa-api-testing/
+├── .github/workflows
+├── test.yml
+├── tests/ # Directory containing test cases
+│   ├── deleteHandlers.test.js
+│   ├── getHandlers.test.js
+│   ├── postHandlers.test.js
+│   ├── putHandlers.test.js
+├── eslintcr.js
+├── .gitignore # Git ignore file
+├── README.md # Project documentation
+├── config.js
+├── package-lock.json
+└── package.json # Project metadata and dependencies
+
+
